@@ -96,6 +96,18 @@ a:hover{
   background: #2D3741;
 }
 
+.social-xs{
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 0;
+  padding: 12px 16px;
+  border: 3px solid #DDD;
+}
+.social-xs:hover{
+  background: #2D3741;
+}
+
 .val{
   font-size: 20px;
 }
@@ -111,8 +123,18 @@ a:hover{
 }
 
 .carousel-pd{
-  height: 30%;
-  padding: 30px 0 10px 0;
+  height: 25%;
+  padding: 24px 0 16px 0;
+}
+
+.carousel-text{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.carousel-text-xs{
+  font-size: 14px;
+  line-height: 1.45;
 }
 
 .contact{
@@ -122,4 +144,15 @@ a:hover{
 
 .back{
   background: rgba(255, 255, 255, .25);
+}
+
+.focus-text{
+  text-align: left;
+  margin: 0;
+  font-size: 16px;
+}
+
+.focus-text-xs{
+  text-align: left;
+  margin: 0;
 }
